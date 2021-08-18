@@ -1,0 +1,64 @@
+$font-content: 'Raleway', sans-serif;
+$primaryColor: #FCF4EB;
+$codeColor: #FA7063;
+$photosColor: #A3D1D8;
+
+body {
+    background: $primaryColor;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container h1 {
+    font: 100% $font-content;
+    font-weight: 500;
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+}
+
+#container p {
+    font: 100% $font-content;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 4em;
+}
+
+#code_link a {
+    font: 100% $font-content;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    outline-style: none;
+    color: $codeColor;
+}
+
+#code_link a:hover {
+    background-color: $codeColor;
+    color: $primaryColor;
+    font-weight: 800;
+}
+
+#photos_link a {
+    font: 100% $font-content;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    outline-style: none;
+    color: $photosColor;
+}
+
+#photos_link a:hover {
+    background-color: $photosColor;
+    color: $primaryColor;
+    font-weight: 800;
+}
+
+
+
